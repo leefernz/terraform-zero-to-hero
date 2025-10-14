@@ -1,1 +1,4 @@
+************Day 2********************
+Setup terraform for multiple region - create multiple providers block with alias and refer the name of the alias in resource block
+terraform.tfvars -> if you use dev.tfvars you need to pass it when you do terraform apply else it will take automatically
 

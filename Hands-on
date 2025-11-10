@@ -77,3 +77,9 @@ resource "aws_security_group" "web_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+Outputtf
+output "eks_cluster_name" {
+  description = "EKS Cluster name"
+  value       = aws_eks_cluster.this.name
+}
+
